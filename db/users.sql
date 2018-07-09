@@ -1,5 +1,4 @@
-\c acroyoga
-drop table users;
+DROP table IF EXISTS users;
 
 CREATE TABLE IF NOT EXISTS users (
   id BIGSERIAL PRIMARY KEY,

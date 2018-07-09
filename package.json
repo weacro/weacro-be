@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "eb deploy && eb setenv `cat .env`"
   },
   "dependencies": {
     "bcrypt-node": "^0.1.0",
