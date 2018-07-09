@@ -1,5 +1,5 @@
 const db = require('../db/config');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt-node');
 const _ = require('lodash');
 const jwt = require('jsonwebtoken');
 
